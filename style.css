@@ -87,3 +87,25 @@ img.steveJ{
     margin-right: 20%;
     left: 80%;
 }
+
+
+
+h3.h3ciclos{
+    counter-reset: cuenta-ciclos;
+
+}
+
+
+p.ciclos::before{
+    content: counter(cuenta-ciclos);
+    counter-increment: cuenta-ciclos;
+    margin-right: 5px;
+
+}
+
+
+
+
+
+
+
