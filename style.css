@@ -65,12 +65,18 @@ p.especial{
 
 }
 
-div a{
+div a:link{
     background-color: white;
     color: blue;
 }
 
 div a:hover{
+    background-color: blue;
+    color: white;
+
+}
+
+div a:visited{
     background-color: blue;
     color: white;
 
