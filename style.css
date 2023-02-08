@@ -1,3 +1,26 @@
+body{
+    background-color: rgb(201, 231, 233);
+
+}
+
+
+header.header1{
+    text-align: center;
+
+}
+
+
+h1::first-letter{
+    font-size: 180%;
+    font-weight: bold;
+    color: black;
+}
+
+h1{
+    font-weight: 400;
+    color: blue;
+
+}
 
 
 p.p1:first-line{
@@ -5,8 +28,56 @@ p.p1:first-line{
 
 }
 
+nav.nav1{
+    text-align: center;
+
+
+}
 
 nav p{
-    display: inline-block;
+    display: inline;
+    width: 9%;
+    
+}
 
+
+hr.hrvertical{
+    display: inline;
+    margin: 3px;
+
+
+}
+
+a.aseleccionable:hover{
+    background-color: yellow;
+    color: red;
+
+}
+
+ol li{
+    margin-bottom: 20px;
+    margin-left: -30px;
+}
+
+
+p.especial{
+    font-style: italic;
+
+}
+
+div a{
+    background-color: white;
+    color: blue;
+}
+
+div a:hover{
+    background-color: blue;
+    color: white;
+
+}
+
+img.steveJ{
+    position: absolute;
+    margin-right: 20%;
+    left: 80%;
 }
